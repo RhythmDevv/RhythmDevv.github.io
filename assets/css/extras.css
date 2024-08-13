@@ -1,0 +1,78 @@
+
+/* Body background color (for testing purposes) */
+body {
+    background-color: #4B2E83 !important; /* Ensure this matches your desired background color */
+}
+
+/* Testimonial Section Styling */
+.testimonial-section {
+    background-color: #4B2E83 !important; /* Matches your purple background */
+    padding: 40px 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important; /* Ensures padding doesn't affect width */
+    z-index: 10 !important; /* Makes sure it's on top */
+}
+
+/* Testimonial Content */
+.testimonial-content {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    color: white;
+    padding: 20px;
+    border: 1px solid transparent; /* Force redraw */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Testimonial Photo */
+.testimonial-photo {
+    width: 150px; /* Adjust size as needed */
+    height: px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: 25px;
+    object-fit: cover;
+    z-index: 0; /* Ensure the image is above other elements */
+}
+
+/* Testimonial Text */
+.testimonial-text {
+    max-width: 900px;
+}
+
+.testimonial-text h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+}
+
+.testimonial-text p {
+    margin: 5px 0;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    .testimonial-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .testimonial-photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .testimonial-text h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Add a temporary red border to debug visibility (remove when done) */
+.testimonial-content {
+    border: 1px solid white; /* This is for debugging. Remove this once you're satisfied */
+}
