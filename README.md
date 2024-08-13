@@ -1,2 +1,2 @@
-# RhythmDevv.github.io
+# RhythmDev.github.io
 Your Web And Systems Partner
